@@ -3,8 +3,6 @@
 [1300 K번째 수](https://www.acmicpc.net/problem/1300)<br>
 난이도: 10
 
-<details>
-    <summary>코드 보기</summary>
 ```python
 n,k = map(int,[*open(0)])
 start = 1
@@ -20,7 +18,6 @@ while start <= end:
         start = mid+1
 print(answer)
 ```
-</details>
 
 **(모든 인덱스는 1부터 시작한다)**<br>
 배열B의 k번째 수 구하기<br>
